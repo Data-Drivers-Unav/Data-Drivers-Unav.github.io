@@ -3,7 +3,7 @@
 <head>
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
     <title>Data Drivers UNAV</title>
-    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,11 +16,11 @@
     <body style="background-color:black;">
    <section class= "header">
        <nav>
-            <a href=""><img src=""></a>
+        <a href="index.html"><img src="Images/DD.png"></a>
            <div class="nav-links" id="navLinks">
                <i id="timesIcon" class="fa fa-times" onclick="hideMenu()"></i>
                <h4>
-               
+               <li><a href ="index.html">Home</a></li>
                  <li><a href ="actividades.html" >Actividades</a></li>
                    <li><a href ="quienes.html">Quienes Somos</a></li>
                    <li><a href ="contacto.html">Contacto</a></li>
@@ -28,40 +28,34 @@
            </div>
            <i class="fa fa-bars" onclick="showMenu()"></i>
        </nav>
-<div class="text-box">
-    <p>
-    </p>
+<div class="contact-box">
+    <p>¿Tienes preguntas o te gustaría unirte a nosotros?</p>
+    <p><strong>¡No dudes en ponerte en contacto con <em>Data Drivers</em>!</strong> Estamos aquí para ayudarte, compartir ideas y colaborar. 🚀 ¡Juntos podemos llevar la tecnología al siguiente nivel!</p>
 </div>
-       
- </section>
 
-
- 
-
- <section>
- <div class="SloganTitle" aria-label = "Data Drivers UNAV slogan">
-    <h1>Explora el lado práctico de la tecnología</h1>
-</div>
- </section>
- <section>
-    <div class="SloganText" aria-label="Data Drivers UNAV general information about the product">
-        <p>
-            Somos un club universitario dedicado a la programación, inteligencia artificial y análisis de datos.
-             Nuestro objetivo es crear una comunidad de estudiantes apasionados por la tecnología, ofreciendo una 
-             plataforma para aprender, compartir y colaborar en proyectos innovadores.
-            Organizamos workshops, charlas, hackathones y proyectos enfocados en el desarrollo de habilidades técnicas 
-            y la aplicación práctica de nuevas tecnologías. Tanto si eres principiante como avanzado, encontrarás actividades 
-            que te ayudarán a crecer y conectarte con otros estudiantes interesados en el mundo tecnológico.
-            Únete a Data Drivers y forma parte de la generación que está construyendo el futuro con datos e inteligencia 
-            artificial. 💡
-            </p>
-</div>
+<section class ="contact" id = "contact">
+    <h2 class ="heading">Contacto</h2>
+    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+    <div class = "input-group">
+        <div class = "input-box">
+        <input type="hidden" name="access_key" value="f459725d-6f30-4665-b809-5cb87b6b8dd5" />
+        <input type ="text" name="full_name" placeholder ="Nombre y Apellidos" required="required">
+        <input type ="email" name="email" placeholder ="Email" required="required">
+        </div>
+        <div class="input-box">
+            <input type="text" name="phone_number" placeholder="Numero de Telefono" required="required">
+            <input type="text" name="subject" placeholder="Sujeto" required="required">
+        </div>
+        </div>
+        <div class = "input-group-2">
+            <textarea name="message" id cols ="30" rows = "10" placeholder="Mensaje" required="required"></textarea>
+            <input type = "submit" value="Enviar Mensaje" class="btn">
+        </div>
+    </form>
 </section>
 
-    
-    
-    
-    
+
+
 <!---- Footer---->
 <section class="footer" aria-label ="How to connect with Data Drivers UNAV and contact information">
     <h2>Conecta Con Nosotros</h2>
@@ -89,11 +83,3 @@ function hideMenu() {
 }
     </script>
     </body>
-    
-
-
-    
-    
-    
-    
-</html>
