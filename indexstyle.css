@@ -165,6 +165,71 @@ nav.fa{
     }
 }
 
+
+/*----------------- Estilos para el banner --------------*/
+    .banner {
+        background-color: #ffcc00;
+        color: #333;
+        padding: 2px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        animation: flash 8s linear;
+    }
+
+    .banner a {
+        font-weight: bold;
+        color: #0073e6;
+        text-decoration: none;
+
+    }
+
+    .banner p {
+        max-width: 90vw;
+        padding-left: 5vw;
+    }
+
+    .banner a:hover {
+        text-decoration: underline;
+    }
+
+    .close-banner {
+        position:absolute;
+        right: 2.5vw;
+        top: 2.5vh;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #333;
+    }
+
+    .close-banner:hover {
+        color: red;
+    }
+
+    
+    .contenido {
+        margin-top: 60px; 
+    }
+    @media screen and (max-width: 700px) {
+        .banner{
+            padding-top: 0px;
+            font-size: 14px;
+        }
+        .banner p{
+            max-width:80vw;
+            padding-left:10vw;
+        }
+        .close-banner{
+            right: 5vw;
+            top: 5vh;
+        }
+    }
+
+
 /*-----------------Slogan-----------------*/
 .SloganTitle{
     text-align: center;
@@ -174,10 +239,10 @@ nav.fa{
     padding-top: 2%;
 }
 .SloganText{
-    max-width:80vw;
+    max-width:90vw;
     text-align:center;
     padding-top:2%;
-    padding-left: 10vw;
+    padding-left: 5vw;
     color:white;
 }
 
@@ -187,6 +252,46 @@ nav.fa{
         font-size: 20px;
     }
     .SloganText{
+        font-size: 14px;
+    }
+}
+
+.InscripcionesTitle{
+    padding-top:20vh;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+.InscripcionesText{
+    max-width:50vw;
+    text-align:center;
+    padding-left: 25vw;
+    color:white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: darkblue;
+  }
+
+@media screen and (max-width: 700px) {
+    .InscripcionesTitle{
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    .InscripcionesText{
         font-size: 14px;
     }
 }
