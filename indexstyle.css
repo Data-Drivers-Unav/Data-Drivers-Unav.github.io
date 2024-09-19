@@ -150,7 +150,7 @@ nav.fa{
         cursor: pointer;
     }
    .header{
-    min-height : 100vh;
+    min-height : 70vh;
     width: 100%;
 }
 .text-box {

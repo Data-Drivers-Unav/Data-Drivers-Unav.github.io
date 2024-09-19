@@ -148,20 +148,23 @@ nav.fa{
 
 /*-----actividades-----*/
 .actividades{
-    padding: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     text-align: center;
     align-items: center;
     color: white;
+    padding-top: 5vw;
 }
 .actividades h1{
     font-size: 36px;
     color: white;
     margin-bottom: 20px;
 }
-.actividades p{
-    font-size: 1.2em;
+.list{
+    padding-top:5vw;
+    padding-left: 5vw;
+    padding-right:5vw;
     color: white;
-
 }
 
 
@@ -307,6 +310,52 @@ textarea:focus {
         max-width: 90vw;
     }
     .Teamimg{
+        max-width:80vw;
+    }
+}
+
+.TeamTitle2{
+    padding-top:5vw;
+    text-align: center;
+    max-width:80%;
+    margin:auto;
+    font-size: 26px;
+    color: white;
+}
+.content-container2{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    max-width:80%;
+    margin:auto;
+}
+.Amigosimg{
+    max-width:80vw;
+    align-content: center;
+}
+.Amigosimg img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.Amigostext p{
+    max-width: 80vw;
+    font-size:18px;
+    line-height:1.6;
+    text-align: justify;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .content-container2 {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .AmigosText{
+        max-width: 90vw;
+    }
+    .Amigosimg{
         max-width:80vw;
     }
 }
