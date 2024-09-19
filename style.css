@@ -141,7 +141,7 @@ nav.fa{
         cursor: pointer;
     }
    .header{
-    min-height : 100vh;
+    min-height : 15vh;
     width: 100%;
 }
 }
