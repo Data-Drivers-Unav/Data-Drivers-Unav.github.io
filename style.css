@@ -73,7 +73,7 @@ nav img{
 nav.fa{
     display:none;
 }
- .fa-times {
+.fa-times {
         display: none;
     }
 .fa-times{
@@ -138,7 +138,7 @@ nav.fa{
         cursor: pointer;
     }
    .header{
-    min-height : 15vh;
+    min-height : 5vh;
     width: 100%;
 }
 }
