@@ -11,7 +11,6 @@ body{
     min-height : 10vh;
     width: 100%;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -81,7 +80,6 @@ nav.fa{
     opacity:0;
 }
 
-
 @media screen and (min-width: 700px) {
     .fa-bars {
         display: none;
@@ -91,7 +89,6 @@ nav.fa{
         opacity: 0;
     }
 }
-
 @media screen and (max-width: 700px) {
     nav img{
         width:80px;
@@ -167,7 +164,6 @@ nav.fa{
     color: white;
 }
 
-
 /*-----------------Contact-----------------*/
 .contact-box {
     text-align: center;
@@ -176,31 +172,26 @@ nav.fa{
     max-width: 600px;
     border-radius: 10px;
 }
-
 .contact-box p {
     font-size: 1.2em;
     color: #555;
 }
-
 .contact {
     padding: 5vw;
     text-align: center;
     align-items: center;
 }
-
 .heading {
     font-size: 36px;
     color: #555;
     margin-bottom: 20px;
 }
-
 .form {
     background-color: #222;
     max-width: 80vw;
     align-items: center;
     padding-left:5vw;
 }
-
 .input-group {
     align-items: center;
     justify-content: space-between;
@@ -208,12 +199,10 @@ nav.fa{
     max-width: 80vw;
     padding-left:5vw;
 }
-
 .input-box {
     flex: 1;
     justify-self: center;
 }
-
 .input-box input[type="text"],
 .input-box input[type="email"],
 .input-box input[type="number"],
@@ -227,11 +216,9 @@ textarea {
     margin-bottom: 10px;
     font-size: 16px;
 }
-
 textarea {
     resize: none;
 }
-
 input[type="submit"].btn {
     background-color: lightskyblue;
     color: #fff;
@@ -241,22 +228,18 @@ input[type="submit"].btn {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 input[type="submit"].btn:hover {
     background-color: #e03e00;
 }
-
 .input-group-2 {
     padding-left:5vw;
     max-width: 80vw;
 
 }
-
 input::placeholder,
 textarea::placeholder {
     color: #bbb;
 }
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
@@ -265,9 +248,7 @@ textarea:focus {
     background-color: #444;
 }
 
-
 /*-----------------Equipo-----------------*/
-
 .TeamTitle{
     padding-top:5vw;
     text-align: center;
@@ -300,7 +281,6 @@ textarea:focus {
     text-align: justify;
     color: white;
 }
-
 @media (max-width: 700px) {
     .content-contain {
         flex-direction: column; 
@@ -313,7 +293,6 @@ textarea:focus {
         max-width:80vw;
     }
 }
-
 .TeamTitle2{
     padding-top:5vw;
     text-align: center;
@@ -346,7 +325,6 @@ textarea:focus {
     text-align: justify;
     color: white;
 }
-
 @media (max-width: 700px) {
     .content-container2 {
         flex-direction: column; 
@@ -359,7 +337,6 @@ textarea:focus {
         max-width:80vw;
     }
 }
-
 .TeamTitle3{
     padding-top:5vw;
     text-align: center;
@@ -401,7 +378,6 @@ textarea:focus {
     height: 12vw;
     padding-left:17vw;
 }
-
 @media (max-width: 700px) {
     .content-container3 {
         flex-direction: column; 
@@ -426,11 +402,6 @@ textarea:focus {
         }
 }
 
-
-
-
-
-
 /*-----------------Footer-----------------*/
 .footer{
     width: 100%;
@@ -439,7 +410,6 @@ textarea:focus {
     padding-bottom: 30px;
     color:white;
 }
-
 .footer h2{
     margin-bottom:25px;
     margin-top: 20px;
