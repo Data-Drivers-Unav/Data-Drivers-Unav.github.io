@@ -382,8 +382,15 @@ textarea:focus {
     height: 12vw;
     padding-left:32vw;
 }
-.Teamtext {
+.Teamtext p{
     max-width: 80vw;
+    font-size:18px;
+    line-height:1.6;
+    text-align: justify;
+    color: white;
+}
+.Teamtext ul{
+    max-width: 70vw;
     font-size:18px;
     line-height:1.6;
     text-align: justify;
@@ -406,8 +413,11 @@ textarea:focus {
         height: 30vw;
         padding-left: 18vw;
       }
-    .TeamText{
+    .Teamtext p{
         width: 80vw;
+    }
+    .Teamtext ul{
+        max-width: 70vw;
     }
     .Teamtext img.DataCampLogo {
         max-width: 70vw;
